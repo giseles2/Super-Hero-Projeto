@@ -1,0 +1,62 @@
+*{
+   margin: 0;
+}
+
+@media screen and (max-width: 600px){
+
+header {
+    width: 100%;
+    background-image: url(../../images/captainmarvelheader_Mobile.jpg);       
+ }
+
+ header nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top:40px ;
+    padding-left: 0;
+ }
+
+
+nav .logo{
+width: 180px;
+}
+
+nav .menu-top  {
+    padding-left: 0;    
+}
+
+.menu-top li a{
+    font-weight: 700;
+}
+
+.hero {
+   display: none;
+}
+
+
+ header .hero img{
+    visibility: hidden;
+}
+
+.catalogo{
+   width: 100%;
+}
+
+.container .title_catalogo {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.container_cards {
+   flex-direction: column;
+   flex-wrap: wrap;
+   grid-template-columns: none;
+   gap: 20px;
+}
+
+}
+
+
+

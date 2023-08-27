@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+
+header {
+    height: 100vh;
+    position: relative;
+    background: url(../../images/captainmarvelheader.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    width: 1518px;
+    flex-direction: column;
+    display: flex;
+   
+}
+
+header section {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 100px;
+}
+    
+.logo {
+     width: 170px;
+}
+
+header nav { 
+         
+         display:flex;
+         justify-content: flex-start;
+         padding-left: 50px;
+         padding-top: 30px;
+         
+}
+
+         
+.menu-top { 
+        width: auto;
+        margin: 5px;
+}
+
+.menu-top li { 
+           font-family: 'Segoe UI', sans-serif;
+           display: inline-block;
+           padding: 10px;
+           margin-top: 15px;
+}
+           
+.menu-top li a {
+                  color: aliceblue;
+                  text-decoration: none;
+                  font-size: 1.3em;
+                 padding-left: 1.4em;
+                 padding-right: 1em;
+                 padding-top: 0.5em;
+                 padding-bottom: 0.5em;
+                 border-radius: 26px;
+                 font-weight: 600;
+}
+
+
+.menu-top a:hover {
+    transition: color 0.3s;
+   
+    color: #fe7467;
+}
+.menu-top .catalogo-link {
+    text-decoration:underline crimson;
+    text-underline-offset: 0.4em;
+    
+  }
+
+
+.titulo_funko {
+
+    width: 400px;
+}

@@ -1,0 +1,90 @@
+@media screen and (max-width: 600px){
+
+header {
+    width: 100%;
+    background-image: url(../../images/contatoheader_mobile.jpg);          
+}
+        
+header nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top:40px;
+    padding-left: 0;
+}
+    
+    
+nav .logo{
+   width: 180px;   
+}
+
+nav .menu-top  {
+    padding-left: 0;     
+}
+    
+.menu-top li a {
+    font-weight: 700;
+}
+    
+header section{
+    width: 100%;
+    padding: 0;
+}
+ 
+.titulo_funko {
+    margin: 0;
+    width: 300px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+footer {
+    width: 100%;
+}
+
+.fale-conosco p {
+    width: 400px;
+    align-items: center;
+    padding: 0;
+}
+
+.formulario{
+    width: 100%;
+}
+
+.caixa-contato {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+ .caixa-nome{
+    padding: 10px 10px;
+}
+
+.caixa-email{
+    padding: 10px 10px;
+}
+
+.caixa-telefone{
+    padding: 10px 10px;
+}
+
+.caixa-como{
+    padding: 15px 15px ;
+    resize: none;
+    height: 100px;
+}
+
+
+
+
+
+
+ 
+
+
+
+
+}

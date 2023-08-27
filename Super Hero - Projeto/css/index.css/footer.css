@@ -1,0 +1,53 @@
+.catalogo {
+    width: 100%;
+}
+
+.catalogo h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 30px;
+    width: 100%;
+    text-decoration: underline #fe7467 solid 4px;
+    text-underline-offset: 0.6em;
+    color: #363636;
+}
+
+.part_catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 200px;
+}
+
+.funko p {
+   font-size: 24px;
+   font-weight: 600;
+   color: rgba(0, 0, 0, 0.64);
+}
+
+.funko {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 500px;
+}
+
+.funko picture .bonecos {
+    width: 700px;
+}
+
+button {
+    font-weight: 900;
+    font-size: 3px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #fe7467,#fc3838);
+    border: none;
+}
+
+button a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
